@@ -127,6 +127,7 @@ export default {
       this.getGoodList()
     },
     //根据id查询
+    //////测试test
   }
 }
 </script>
