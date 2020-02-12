@@ -1,0 +1,21 @@
+/* 全局样式表 */
+html,body,#app{
+    margin:0;
+    padding:0;
+    height: 100%;
+    /* 设置屏幕最小，使得页面元素不换行 */
+   min-width:1366px;
+}
+.el-breadcrumb{
+    margin-bottom: 24px;
+    font-size: 10px;
+}
+.el-table{
+    margin-top:15px;
+}
+.el-pagination{
+    margin-top:16px;
+}
+.el-cascader-menu{
+    height: 300px;
+}
