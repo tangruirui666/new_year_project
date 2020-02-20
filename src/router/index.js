@@ -9,8 +9,9 @@ import Roles from '../components/power/Roles.vue'
 import Category from '../components/goodsMessage/Category.vue'
 import goodParams from '../components/goodsMessage/goodParams.vue'
 import goodList from '../components/goodsMessage/goodList.vue'
+import Add from '../components/goodsMessage/Add.vue'
 
-Vue.use(VueRouter)
+Vue.use(VueRouter) 
 
 const routes = [
   {
@@ -50,6 +51,10 @@ const routes = [
     },{
       path:'/goods',
       component:goodList,
+    },
+    {
+      path:'/goods/add',
+      component:Add,
     },
   ]
   }

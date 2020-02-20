@@ -1,7 +1,7 @@
 // 导入自己需要的组件
 import { Button, Form, FormItem, Input, Message,Container,Header,Aside,
   Main,Menu,Submenu,MenuItemGroup,MenuItem,Breadcrumb,BreadcrumbItem
- ,Card,Row,Col,Table,TableColumn,Switch,Tooltip,Pagination,Dialog,MessageBox,Tag,Tree,Select,Option,Cascader,Alert,Tabs,TabPane} from 'element-ui'
+ ,Card,Row,Col,Table,TableColumn,Switch,Tooltip,Pagination,Dialog,MessageBox,Tag,Tree,Select,Option,Cascader,Alert,Tabs,TabPane,Steps,Step,CheckboxGroup,Checkbox} from 'element-ui'
 const element = {
   install: function(Vue) {
     Vue.use(Button)
@@ -35,6 +35,10 @@ const element = {
     Vue.use(Alert)
     Vue.use(Tabs)
     Vue.use(TabPane)
+    Vue.use(Steps)
+    Vue.use(Step)
+    Vue.use(CheckboxGroup)
+    Vue.use(Checkbox)
     //将弹框组件挂载到Vue原型上
     Vue.prototype.$message = Message
     //使用confirm

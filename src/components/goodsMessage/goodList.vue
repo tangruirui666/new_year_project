@@ -23,7 +23,7 @@
           </el-input>
         </el-col>
         <el-col :span="4">
-          <el-button type="primary">添加商品</el-button>
+          <el-button type="primary" @click="addGoods">添加商品</el-button>
         </el-col>
       </el-row>
       <!-- 表格区域 -->
@@ -126,8 +126,10 @@ export default {
       this.$message.success('删除成功')
       this.getGoodList()
     },
-    //根据id查询
-    //////测试test
+    //添加商品
+    addGoods(){
+      this.$router.push('/goods/add')
+    }
   }
 }
 </script>
